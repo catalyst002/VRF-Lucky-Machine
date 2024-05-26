@@ -1,0 +1,57 @@
+/* Casino.css */
+body {
+    background: linear-gradient(135deg, #f5f7fa, #9bbef6);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  div {
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff4b4b;
+  }
+  
+  button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #luckyMessage {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .loading {
+    font-size: 20px;
+    color: #888;
+  }
+  
+  .address {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
